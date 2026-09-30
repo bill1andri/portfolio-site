@@ -1,9 +1,9 @@
 const projects = [
   {
-    title: 'Project One',
-    description: 'A short description of the project, what it does, and the problem it solves.',
-    tags: ['React', 'Node.js'],
-    link: '#',
+    title: 'Portfolio Site',
+    description: 'This site — a personal portfolio built with React and Vite, deployed automatically to GitHub Pages with GitHub Actions.',
+    tags: ['React', 'Vite', 'GitHub Actions'],
+    link: 'https://github.com/bill1andri/portfolio-site',
   },
   {
     title: 'Project Two',
