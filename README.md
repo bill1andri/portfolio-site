@@ -1,16 +1,40 @@
-# React + Vite
+# Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Προσωπικό portfolio site του Βασίλη Ανδριανόπουλου, φοιτητή στο Τμήμα Πληροφορικής και Τηλεπικοινωνιών (ΔΙΤ) του ΕΚΠΑ.
 
-Currently, two official plugins are available:
+🔗 **Live:** https://bill1andri.github.io/portfolio-site/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Τεχνολογίες
 
-## React Compiler
+- [React](https://react.dev/) 19
+- [Vite](https://vite.dev/)
+- [Oxlint](https://oxc.rs/) για linting
+- GitHub Actions για αυτόματο deploy στο GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Τοπική εκτέλεση
 
-## Expanding the Oxlint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Άλλες εντολές:
+
+| Εντολή | Τι κάνει |
+| --- | --- |
+| `npm run build` | Φτιάχνει την production έκδοση στον φάκελο `dist/` |
+| `npm run preview` | Δείχνει τοπικά την production έκδοση |
+| `npm run lint` | Ελέγχει τον κώδικα με Oxlint |
+
+## Deploy
+
+Κάθε push στο `main` χτίζει και ανεβάζει αυτόματα το site στο GitHub Pages μέσω του workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+## Δομή
+
+```
+src/
+  components/   Header, Hero, About, Projects, Skills, Contact, Footer
+  App.jsx       Συνδέει όλα τα sections
+  main.jsx      Σημείο εκκίνησης
+```

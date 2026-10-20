@@ -6,16 +6,10 @@ const projects = [
     link: 'https://github.com/bill1andri/portfolio-site',
   },
   {
-    title: 'Project Two',
-    description: 'A short description of the project, what it does, and the problem it solves.',
-    tags: ['Python', 'Data'],
-    link: '#',
-  },
-  {
-    title: 'Project Three',
-    description: 'A short description of the project, what it does, and the problem it solves.',
-    tags: ['TypeScript', 'API'],
-    link: '#',
+    title: 'Command-line puzzles (progintro hw0)',
+    description: 'First assignment for Introduction to Programming at DIT UoA: solving a series of puzzles with Linux tools (cd, man, grep, diff, find, gcc, unzip, tar) and publishing the write-up with GitHub Pages.',
+    tags: ['Linux', 'Bash', 'C', 'GitHub Pages'],
+    link: 'https://github.com/bill1andri/bill1andri.github.io',
   },
 ]
 
