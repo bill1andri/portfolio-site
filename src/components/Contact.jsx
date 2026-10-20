@@ -11,7 +11,7 @@ function Contact() {
         {email}
       </a>
       <ul className="social-list">
-        <li><a href="#" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="https://github.com/bill1andri" target="_blank" rel="noreferrer">GitHub</a></li>
         <li><a href="#" target="_blank" rel="noreferrer">LinkedIn</a></li>
       </ul>
     </section>

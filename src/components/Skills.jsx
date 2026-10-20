@@ -1,6 +1,6 @@
 const skills = [
-  'JavaScript', 'TypeScript', 'React', 'Node.js',
-  'Python', 'SQL', 'Git', 'HTML & CSS',
+  'C', 'C++', 'Python', 'Go',
+  'JavaScript', 'React', 'HTML & CSS', 'Git', 'Linux',
 ]
 
 function Skills() {
