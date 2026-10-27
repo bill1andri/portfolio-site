@@ -13,7 +13,7 @@ function Contact() {
       <ul className="social-list">
         <li><a href="https://github.com/bill1andri" target="_blank" rel="noreferrer">GitHub</a></li>
         <li><a href="https://leetcode.com/u/BILLANDRI/" target="_blank" rel="noreferrer">LeetCode</a></li>
-        <li><a href="https://www.instagram.com/bill.andri/" target="_blank" rel="noreferrer">Instagram</a></li>
+        <li><a href="https://www.instagram.com/bill_andri_/" target="_blank" rel="noreferrer">Instagram</a></li>
         <li><a href="#" target="_blank" rel="noreferrer">LinkedIn</a></li>
       </ul>
     </section>
