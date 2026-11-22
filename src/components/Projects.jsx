@@ -11,16 +11,31 @@ const projects = [
     tags: ['Linux', 'Bash', 'C', 'GitHub Pages'],
     link: 'https://github.com/bill1andri/bill1andri.github.io',
   },
+  {
+    title: 'Hiking Terrain',
+    description: 'A hiking app with a C++ backend that loads real SRTM elevation data, computes terrain slope and difficulty, and finds the steepest points on a map — plus a weather module that rates trail safety from wind, gusts, rain and daylight.',
+    tags: ['C++', 'CMake', 'Elevation data'],
+    link: 'https://github.com/bill1andri/hiking-terrain',
+  },
 ]
 
 function Projects() {
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section reveal">
       <h2 className="section-title">Projects</h2>
       <div className="project-grid">
         {projects.map((project) => (
-          <a href={project.link} className="project-card" key={project.title}>
-            <h3>{project.title}</h3>
+          <a
+            href={project.link}
+            className="project-card reveal"
+            key={project.title}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="project-card-head">
+              <h3>{project.title}</h3>
+              <span className="project-arrow" aria-hidden="true">↗</span>
+            </div>
             <p>{project.description}</p>
             <ul className="tag-list">
               {project.tags.map((tag) => (

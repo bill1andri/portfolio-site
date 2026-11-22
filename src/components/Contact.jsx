@@ -2,7 +2,7 @@ const email = 'spijan69@gmail.com'
 
 function Contact() {
   return (
-    <section id="contact" className="section">
+    <section id="contact" className="section reveal">
       <h2 className="section-title">Contact</h2>
       <p>
         Interested in working together, or just want to say hi? Reach out.
