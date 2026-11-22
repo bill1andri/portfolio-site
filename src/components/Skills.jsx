@@ -5,7 +5,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills" className="section">
+    <section id="skills" className="section reveal">
       <h2 className="section-title">Skills</h2>
       <ul className="skill-list">
         {skills.map((skill) => (
