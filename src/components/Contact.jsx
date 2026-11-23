@@ -1,4 +1,4 @@
-const email = 'spijan69@gmail.com'
+const email = 'bill1andrianopoulos07@gmail.com'
 
 function Contact() {
   return (
